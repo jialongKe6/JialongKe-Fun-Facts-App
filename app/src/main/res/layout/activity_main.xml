@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#F0F0F0">
+
+    <!-- Display for Fun Facts -->
+    <TextView
+        android:id="@+id/factTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fun Fact will appear here"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Button to load next Fun Fact -->
+    <Button
+        android:id="@+id/nextFactButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Fact" />
+
+</LinearLayout>
